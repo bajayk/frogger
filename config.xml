@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.ajaybadgujar.froggytest"
+    versionCode = "1" 
+    version     = "1.0.0" >
+   <name>Froggy</name>
+    <description>
+            Game for kids. 
+    </description>
+    <author href="http://ajaybadgujar.com" email="contact@ajaybadgujar.com">
+             Ajay Badgujar 
+    </author>
+    
+    
+    <platform name="android"/>
+    
+    
+    <!-- all platforms -->
+  
+  <preference name="orientation" value="protrait" />
+  <preference name="fullscreen" value="true" />
+
+ 
+
+  <!-- Android only -->
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="10" />
+  <preference name="android-maxSdkVersion" value="26" />
+  <preference name="android-targetSdkVersion" value="19" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+    
+    
+      
+       <platform name="android">
+        <icon src="res/icon/android/drawable-ldpi-icon" qualifier="ldpi"/>
+        <icon src="res/icon/android/drawable-mdpi-icon" qualifier="mdpi"/>
+        <icon src="res/icon/android/drawable-hdpi-icon" qualifier="hdpi"/>
+        <icon src="res/icon/android/drawable-xhdpi-icon" qualifier="xhdpi"/>
+        <icon src="res/icon/android/drawable-xxhdpi-icon" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/drawable-xxxhdpi-icon" qualifier="xxxhdpi"/>
+      </platform>
+      
+       
+      
+      <platform name="android">
+        <splash src="res/screen/android/drawable-port-ldpi-screen" qualifier="ldpi"/>
+        <splash src="res/screen/android/drawable-port-mdpi-screen" qualifier="mdpi"/>
+        <splash src="res/screen/android/drawable-port-hdpi-screen" qualifier="hdpi"/>
+        <splash src="res/screen/android/drawable-port-xhdpi-screen" qualifier="xhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxhdpi-screen" qualifier="xxhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxxhdpi-screen" qualifier="xxxhdpi"/>
+      </platform>
+      
+      <preference name="permissions" value="none"/>
+      <access origin="*" subdomains="true"/>
+      
+      
+      <platform name="android">
+        <allow-intent href="market:*"/>
+      </platform>
+      
+      
+</widget>
